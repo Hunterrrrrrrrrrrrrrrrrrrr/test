@@ -5,14 +5,14 @@ public class Main {
     public static void main(String[] args) {
         EmployeeManagement management = new EmployeeManagement();
 
-        management.addEmployee("A", 25);
-        management.addEmployee("B", 30);
-        management.addEmployee("C", 22);
+        management.addEmployee("A", 1);
+        management.addEmployee("B", 2);
+        management.addEmployee("C", 3);
 
         management.deleteEmployee("B");
 
-        management.addEmployee("A", 25);
-        management.addEmployee("D", 27);
+        management.addEmployee("A", 1);
+        management.addEmployee("D", 2);
 
         management.printEmployees();
     }
