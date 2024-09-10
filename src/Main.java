@@ -70,9 +70,7 @@ class EmployeeManagement {
     }
 
     public void printEmployees() {
-        // Sort by name
         Collections.sort(employees, Comparator.comparing(Employee::getName));
-        // Print employees
         for (Employee employee : employees) {
             System.out.println(employee);
         }
